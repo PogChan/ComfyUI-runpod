@@ -1,0 +1,395 @@
+** ComfyUI startup time: 2026-02-21 22:59:30.215
+[2026-02-21 22:59:30.216] ** Platform: Windows
+[2026-02-21 22:59:30.216] ** Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[2026-02-21 22:59:30.216] ** Python executable: C:\Users\10760\ComfyUI_windows_portable\python_embeded\python.exe
+[2026-02-21 22:59:30.216] ** ComfyUI Path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI
+[2026-02-21 22:59:30.216] ** ComfyUI Base Folder Path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI
+[2026-02-21 22:59:30.216] ** User directory: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user
+[2026-02-21 22:59:30.217] ** ComfyUI-Manager config path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\__manager\config.ini
+[2026-02-21 22:59:30.217] ** Log path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\comfyui.log
+[PRE] ComfyUI-Manager
+[2026-02-21 22:59:31.752] 
+Prestartup times for custom nodes:
+[2026-02-21 22:59:31.753]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+[2026-02-21 22:59:31.753] 
+[2026-02-21 22:59:36.498] Checkpoint files will always be loaded safely.
+[2026-02-21 22:59:38.617] Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[2026-02-21 22:59:38.618] Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-02-21 22:59:38.618] Found comfy_kitchen backend cuda: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-02-21 22:59:38.858] Total VRAM 6144 MB, total RAM 32717 MB
+[2026-02-21 22:59:38.859] pytorch version: 2.10.0+cu130
+[2026-02-21 22:59:38.860] Set vram state to: LOW_VRAM
+[2026-02-21 22:59:38.860] Device: cuda:0 NVIDIA GeForce GTX 1660 Ti : cudaMallocAsync
+[2026-02-21 22:59:38.884] Using async weight offloading with 2 streams
+[2026-02-21 22:59:38.888] Enabled pinned memory 14722.0
+[2026-02-21 22:59:38.896] working around nvidia conv3d memory bug.
+[2026-02-21 22:59:39.615] Using pytorch attention
+[2026-02-21 22:59:43.636] Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[2026-02-21 22:59:43.637] ComfyUI version: 0.13.0
+[2026-02-21 22:59:43.684] ComfyUI frontend version: 1.38.13
+[2026-02-21 22:59:43.686] [Prompt Server] web root: C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\comfyui_frontend_package\static
+[2026-02-21 22:59:43.687] [START] ComfyUI-Manager
+[2026-02-21 22:59:43.981] [ComfyUI-Manager] network_mode: public
+[2026-02-21 22:59:47.404] ComfyUI Audio Quality Enhancer: Successfully loaded nodes
+[2026-02-21 22:59:47.405] Available nodes: ['AudioQualityEnhancer', 'AudioQualityEffects']
+[2026-02-21 22:59:54.580] [34m[ComfyUI-Easy-Use] server: [0mv1.3.7 [92mLoaded[0m
+[2026-02-21 22:59:54.581] [34m[ComfyUI-Easy-Use] web root: [0mC:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use\web_version/v2 [92mLoaded[0m
+[2026-02-21 22:59:54.597] ComfyUI-GGUF: Allowing full torch compile
+[2026-02-21 22:59:54.625] 
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+[2026-02-21 22:59:55.592] ✅ ComfyUI-Qwen-TTS v1.0.6 loaded
+[2026-02-21 22:59:55.806] 
+     ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗    ██████╗ ███╗   ██╗
+     ██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║   ██╔═══██╗████╗  ██║
+     ██████╔╝ ╚████╔╝ ███████║██╔██╗ ██║   ██║   ██║██╔██╗ ██║
+     ██╔══██╗  ╚██╔╝  ██╔══██║██║╚██╗██║   ██║   ██║██║╚██╗██║
+     ██║  ██║   ██║   ██║  ██║██║ ╚████║   ╚██████╔╝██║ ╚████║
+     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═════╝ ╚═╝  ╚═══╝
+████████╗██╗  ██╗███████╗   ██╗███╗   ██╗███████╗██╗██████╗ ███████╗
+╚══██╔══╝██║  ██║██╔════╝   ██║████╗  ██║██╔════╝██║██╔══██╗██╔════╝
+   ██║   ███████║█████╗     ██║██╔██╗ ██║███████╗██║██║  ██║█████╗  
+   ██║   ██╔══██║██╔══╝     ██║██║╚██╗██║╚════██║██║██║  ██║██╔══╝  
+   ██║   ██║  ██║███████╗   ██║██║ ╚████║███████║██║██████╔╝███████╗
+   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═════╝ ╚══════╝
+
+             ⚡ R Y A N   O N   T H E   I N S I D E ⚡
+
+      
+[2026-02-21 22:59:55.811] [RyanOnTheInside] Copying extension file: widget_hotkey.js
+[2026-02-21 22:59:56.411] Checking for AdvancedLivePortrait at: None
+[2026-02-21 22:59:56.411] Checking for Advanced-ControlNet at: None
+[2026-02-21 22:59:56.412] Checking for AnimateDiff-Evolved at: None
+[2026-02-21 22:59:56.412] ComfyUI-AdvancedLivePortrait not found. FlexExpressionEditor will not be available. Install ComfyUI-AdvancedLivePortrait and restart ComfyUI.
+[2026-02-21 22:59:56.413] ComfyUI-Advanced-ControlNet not found. Advanced-ControlNet feature nodes will not be available. Install ComfyUI-Advanced-ControlNet and restart ComfyUI.
+[2026-02-21 22:59:56.413] ComfyUI-AnimateDiff-Evolved not found. AnimateDiff feature nodes will not be available. Install ComfyUI-AnimateDiff-Evolved and restart ComfyUI.
+[2026-02-21 22:59:56.425] [comfyui_ryanontheinside.acestep] [ACE-Step Patches] Patched resolve_areas_and_cond_masks_multidim for 1D latent support
+[2026-02-21 22:59:56.426] [comfyui_ryanontheinside.acestep] [ACE-Step Patches] Patched comfy.utils.reshape_mask for 1D latent support
+[2026-02-21 22:59:56.460] 
+Import times for custom nodes:
+[2026-02-21 22:59:56.461]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2026-02-21 22:59:56.462]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-GGUF
+[2026-02-21 22:59:56.462]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\JK-AceStep-Nodes
+[2026-02-21 22:59:56.462]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-custom-scripts
+[2026-02-21 22:59:56.463]    0.2 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-videohelpersuite
+[2026-02-21 22:59:56.463]    0.5 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Audio_Quality_Enhancer
+[2026-02-21 22:59:56.463]    0.7 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_RyanOnTheInside
+[2026-02-21 22:59:56.463]    1.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Qwen-TTS
+[2026-02-21 22:59:56.464]    7.2 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+[2026-02-21 22:59:56.464] 
+[2026-02-21 22:59:56.484] Context impl SQLiteImpl.
+[2026-02-21 22:59:56.484] Will assume non-transactional DDL.
+[2026-02-21 22:59:56.544] Assets scan(roots=['models']) completed in 0.053s (created=0, skipped_existing=26, orphans_pruned=0, total_seen=29)
+[2026-02-21 22:59:56.823] Starting server
+
+[2026-02-21 22:59:56.824] To see the GUI go to: http://127.0.0.1:8188
+[2026-02-21 22:59:58.655] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-21 22:59:58.664] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/widgetInputs.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-21 22:59:59.334] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-21 23:00:00.186] [ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.
+[2026-02-21 23:00:00.294] FETCH DATA from: C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\comfyui_manager\custom-node-list.json [DONE]
+[2026-02-21 23:15:43.003] FETCH ComfyRegistry Data [DONE]
+[2026-02-21 23:15:43.005] got prompt
+[2026-02-21 23:15:43.361] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2026-02-21 23:15:43.404] [Qwen3-TTS] Requested attention 'sage_attn' not available, falling back to sdpa
+[2026-02-21 23:15:43.405] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:15:43.406] FETCH DATA from: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\__manager\cache\1514988643_custom-node-list.json🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:15:43.418]  [DONE]
+[2026-02-21 23:15:43.464] [ComfyUI-Manager] All startup tasks have been completed.
+[2026-02-21 23:15:43.466] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:15:43.467] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:15:43.467] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:15:43.468] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:15:43.556] got prompt
+[2026-02-21 23:15:43.842] got prompt
+[2026-02-21 23:20:06.782] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:20:06.785] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:20:13.923] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:20:13.924] Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[2026-02-21 23:20:24.771] 🔄 [Qwen3-TTS] Attention changed from 'sdpa' to 'auto', clearing cache...
+[2026-02-21 23:20:24.771] [Qwen3-TTS] Unloading 1 cached model(s)...
+[2026-02-21 23:20:25.527] [Qwen3-TTS] Model cache and GPU memory cleared
+[2026-02-21 23:20:25.529] [Qwen3-TTS] Auto-selected attention: sdpa
+[2026-02-21 23:20:25.529] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:20:25.529] 🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:20:25.532] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:20:25.532] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:20:25.533] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:20:25.534] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:20:27.445] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:20:27.447] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:20:29.186] ✅ [Qwen3-TTS] Voice features saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\consultant.qvp
+[2026-02-21 23:20:29.190] ✅ [Qwen3-TTS] Voice metadata saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\consultant.json
+[2026-02-21 23:20:29.197] ✅ [Qwen3-TTS] Reference audio (Speaker) saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\consultant.wav
+[2026-02-21 23:20:29.201] Prompt executed in 286.19 seconds
+[2026-02-21 23:21:28.557] got prompt
+[2026-02-21 23:21:28.568] 🔄 [Qwen3-TTS] Attention changed from 'sdpa' to 'sage_attn', clearing cache...
+[2026-02-21 23:21:28.568] [Qwen3-TTS] Unloading 1 cached model(s)...
+[2026-02-21 23:21:29.293] [Qwen3-TTS] Model cache and GPU memory cleared
+[2026-02-21 23:21:29.296] [Qwen3-TTS] Requested attention 'sage_attn' not available, falling back to sdpa
+[2026-02-21 23:21:29.296] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:21:29.297] 🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:21:29.300] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:21:29.301] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:21:29.302] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:21:29.304] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:21:31.385] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:21:31.386] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:21:33.277] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:21:33.278] Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[2026-02-21 23:21:45.778] 🔄 [Qwen3-TTS] Attention changed from 'sdpa' to 'auto', clearing cache...
+[2026-02-21 23:21:45.779] [Qwen3-TTS] Unloading 1 cached model(s)...
+[2026-02-21 23:21:46.367] [Qwen3-TTS] Model cache and GPU memory cleared
+[2026-02-21 23:21:46.369] [Qwen3-TTS] Auto-selected attention: sdpa
+[2026-02-21 23:21:46.370] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:21:46.370] 🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:21:46.372] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:21:46.372] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:21:46.372] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:21:46.373] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:21:48.110] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:21:48.110] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:21:49.654] ✅ [Qwen3-TTS] Voice features saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.qvp
+[2026-02-21 23:21:49.655] ✅ [Qwen3-TTS] Voice metadata saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.json
+[2026-02-21 23:21:49.660] ✅ [Qwen3-TTS] Reference audio (Speaker) saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.wav
+[2026-02-21 23:21:49.663] Prompt executed in 21.10 seconds
+[2026-02-21 23:22:40.048] got prompt
+[2026-02-21 23:22:40.056] 🔄 [Qwen3-TTS] Attention changed from 'sdpa' to 'sage_attn', clearing cache...
+[2026-02-21 23:22:40.056] [Qwen3-TTS] Unloading 1 cached model(s)...
+[2026-02-21 23:22:40.697] [Qwen3-TTS] Model cache and GPU memory cleared
+[2026-02-21 23:22:40.700] [Qwen3-TTS] Requested attention 'sage_attn' not available, falling back to sdpa
+[2026-02-21 23:22:40.705] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:22:40.705] 🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:22:40.709] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:22:40.710] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:22:40.710] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:22:40.712] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:22:42.692] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:22:42.693] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:22:44.368] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:22:44.369] Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[2026-02-21 23:22:55.177] 🔄 [Qwen3-TTS] Attention changed from 'sdpa' to 'auto', clearing cache...
+[2026-02-21 23:22:55.178] [Qwen3-TTS] Unloading 1 cached model(s)...
+[2026-02-21 23:22:55.812] [Qwen3-TTS] Model cache and GPU memory cleared
+[2026-02-21 23:22:55.815] [Qwen3-TTS] Auto-selected attention: sdpa
+[2026-02-21 23:22:55.815] ✅ [Qwen3-TTS] Loading local model: Qwen3-TTS-12Hz-1.7B-Base
+[2026-02-21 23:22:55.815] 🔧 [Qwen3-TTS] Loading model with attention: sdpa
+[2026-02-21 23:22:55.817] talker_config is None. Initializing talker model with default values
+[2026-02-21 23:22:55.818] speaker_encoder_config is None. Initializing talker model with default values
+[2026-02-21 23:22:55.818] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:22:55.819] code_predictor_config is None. Initializing code_predictor model with default values
+[2026-02-21 23:22:57.601] encoder_config is None. Initializing encoder with default values
+[2026-02-21 23:22:57.602] decoder_config is None. Initializing decoder with default values
+[2026-02-21 23:22:59.204] ✅ [Qwen3-TTS] Voice features saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.qvp
+[2026-02-21 23:22:59.206] ✅ [Qwen3-TTS] Voice metadata saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.json
+[2026-02-21 23:22:59.210] ✅ [Qwen3-TTS] Reference audio (Speaker) saved to: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\models\qwen-tts\voices\ceo.wav
+[2026-02-21 23:22:59.212] Prompt executed in 19.16 seconds
+[2026-02-21 23:33:50.319] got prompt
+[2026-02-21 23:33:50.371] Using pytorch attention in VAE
+[2026-02-21 23:33:50.373] Using pytorch attention in VAE
+[2026-02-21 23:33:51.410] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2026-02-21 23:34:17.929] Requested to load ZImageTEModel_
+[2026-02-21 23:34:17.967] loaded completely;  7672.25 MB loaded, full load: True
+[2026-02-21 23:34:17.972] CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-02-21 23:34:30.326] model weight dtype torch.bfloat16, manual cast: torch.float32
+[2026-02-21 23:34:30.329] model_type FLOW
+[2026-02-21 23:35:23.095] Requested to load Lumina2
+[2026-02-21 23:35:23.103] 0 models unloaded.
+[2026-02-21 23:35:34.345] loaded partially; 0.00 MB usable, 0.00 MB loaded, 11739.54 MB offloaded, 421.88 MB buffer reserved, lowvram patches: 0
+[2026-02-21 23:35:36.916] 
+[2026-02-21 23:35:37.054] !!! Exception during processing !!! Allocation on device 0 would exceed allowed memory. (out of memory)
+Currently allocated     : 4.68 GiB
+Requested               : 160.00 MiB
+Device limit            : 6.00 GiB
+Free (according to CUDA): 0 bytes
+PyTorch limit (set by user-supplied memory fraction)
+                        : 17179869184.00 GiB
+[2026-02-21 23:35:37.173] Traceback (most recent call last):
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\execution.py", line 530, in execute
+    output_data, output_ui, has_subgraph, has_pending_tasks = await get_output_data(prompt_id, unique_id, obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\execution.py", line 334, in get_output_data
+    return_values = await _async_map_node_over_list(prompt_id, unique_id, obj, input_data_all, obj.FUNCTION, allow_interrupt=True, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\execution.py", line 308, in _async_map_node_over_list
+    await process_inputs(input_dict, i)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\execution.py", line 296, in process_inputs
+    result = f(**inputs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\nodes.py", line 1590, in sample
+    return common_ksampler(model, seed, steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\nodes.py", line 1555, in common_ksampler
+    samples = comfy.sample.sample(model, noise, steps, cfg, sampler_name, scheduler, positive, negative, latent_image,
+                                  denoise=denoise, disable_noise=disable_noise, start_step=start_step, last_step=last_step,
+                                  force_full_denoise=force_full_denoise, noise_mask=noise_mask, callback=callback, disable_pbar=disable_pbar, seed=seed)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\sample.py", line 66, in sample
+    samples = sampler.sample(noise, positive, negative, cfg=cfg, latent_image=latent_image, start_step=start_step, last_step=last_step, force_full_denoise=force_full_denoise, denoise_mask=noise_mask, sigmas=sigmas, callback=callback, disable_pbar=disable_pbar, seed=seed)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 1177, in sample
+    return sample(self.model, noise, positive, negative, cfg, self.device, sampler, sigmas, self.model_options, latent_image=latent_image, denoise_mask=denoise_mask, callback=callback, disable_pbar=disable_pbar, seed=seed)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 1067, in sample
+    return cfg_guider.sample(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 1049, in sample
+    output = executor.execute(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed, latent_shapes=latent_shapes)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 993, in outer_sample
+    output = self.inner_sample(noise, latent_image, device, sampler, sigmas, denoise_mask, callback, disable_pbar, seed, latent_shapes=latent_shapes)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 979, in inner_sample
+    samples = executor.execute(self, sigmas, extra_args, callback, noise, latent_image, denoise_mask, disable_pbar)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 751, in sample
+    samples = self.sampler_function(model_k, noise, sigmas, extra_args=extra_args, callback=k_callback, disable=disable_pbar, **self.extra_options)
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\k_diffusion\sampling.py", line 1463, in sample_res_multistep
+    return res_multistep(model, x, sigmas, extra_args=extra_args, callback=callback, disable=disable, s_noise=s_noise, noise_sampler=noise_sampler, eta=0., cfg_pp=False)
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\k_diffusion\sampling.py", line 1421, in res_multistep
+    denoised = model(x, sigmas[i] * s_in, **extra_args)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 400, in __call__
+    out = self.inner_model(x, sigma, model_options=model_options, seed=seed)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 952, in __call__
+    return self.outer_predict_noise(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 959, in outer_predict_noise
+    ).execute(x, timestep, model_options, seed)
+      ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 962, in predict_noise
+    return sampling_function(self.inner_model, x, timestep, self.conds.get("negative", None), self.conds.get("positive", None), self.cfg, model_options=model_options, seed=seed)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 380, in sampling_function
+    out = calc_cond_batch(model, conds, x, timestep, model_options)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 205, in calc_cond_batch
+    return _calc_cond_batch_outer(model, conds, x_in, timestep, model_options)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 213, in _calc_cond_batch_outer
+    return executor.execute(model, conds, x_in, timestep, model_options)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\samplers.py", line 325, in _calc_cond_batch
+    output = model.apply_model(input_x, timestep_, **c).chunk(batch_chunks)
+             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\model_base.py", line 167, in apply_model
+    return comfy.patcher_extension.WrapperExecutor.new_class_executor(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ...<2 lines>...
+        comfy.patcher_extension.get_all_wrappers(comfy.patcher_extension.WrappersMP.APPLY_MODEL, transformer_options)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ).execute(x, t, c_concat, c_crossattn, control, transformer_options, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\model_base.py", line 209, in _apply_model
+    model_output = self.diffusion_model(xc, t, context=context, control=control, transformer_options=transformer_options, **extra_conds)
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 803, in forward
+    return comfy.patcher_extension.WrapperExecutor.new_class_executor(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ...<2 lines>...
+        comfy.patcher_extension.get_all_wrappers(comfy.patcher_extension.WrappersMP.DIFFUSION_MODEL, kwargs.get("transformer_options", {}))
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ).execute(x, timesteps, context, num_tokens, attention_mask, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\patcher_extension.py", line 112, in execute
+    return self.original(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 840, in _forward
+    img, mask, img_size, cap_size, freqs_cis, timestep_zero_index = self.patchify_and_embed(x, cap_feats, cap_mask, adaln_input, num_tokens, ref_latents=ref_latents, ref_contexts=ref_contexts, siglip_feats=siglip_feats, transformer_options=transformer_options)
+                                                                    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 785, in patchify_and_embed
+    x = layer(x, padded_img_mask, fc_x, t, timestep_zero_index=timestep_zero_index, transformer_options=transformer_options)
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 332, in forward
+    clamp_fp16(self.feed_forward(
+               ~~~~~~~~~~~~~~~~~^
+        modulate(self.ffn_norm1(x), scale_mlp, timestep_zero_index=timestep_zero_index),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))), timestep_zero_index=timestep_zero_index
+    ^
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 222, in forward
+    return self.w2(self._forward_silu_gating(self.w1(x), self.w3(x)))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\10760\ComfyUI_windows_portable\ComfyUI\comfy\ldm\lumina\model.py", line 219, in _forward_silu_gating
+    return clamp_fp16(F.silu(x1) * x3)
+                      ~~~~~~~~~~~^~~~
+torch.OutOfMemoryError: Allocation on device 0 would exceed allowed memory. (out of memory)
+Currently allocated     : 4.68 GiB
+Requested               : 160.00 MiB
+Device limit            : 6.00 GiB
+Free (according to CUDA): 0 bytes
+PyTorch limit (set by user-supplied memory fraction)
+                        : 17179869184.00 GiB
+
+[2026-02-21 23:35:37.178] Memory summary: |===========================================================================|
+|                  PyTorch CUDA memory summary, device ID 0                 |
+|---------------------------------------------------------------------------|
+|            CUDA OOMs: 0            |        cudaMalloc retries: 0         |
+|===========================================================================|
+|        Metric         | Cur Usage  | Peak Usage | Tot Alloc  | Tot Freed  |
+|---------------------------------------------------------------------------|
+| Allocated memory      |   4633 MiB |   4858 MiB |      0 B   |      0 B   |
+|       from large pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|       from small pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Active memory         |   4633 MiB |   4858 MiB |      0 B   |      0 B   |
+|       from large pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|       from small pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Requested memory      |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| GPU reserved memory   |   5408 MiB |   5568 MiB |      0 B   |      0 B   |
+|       from large pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|       from small pool |      0 MiB |      0 MiB |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Non-releasable memory |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from large pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|       from small pool |      0 B   |      0 B   |      0 B   |      0 B   |
+|---------------------------------------------------------------------------|
+| Allocations           |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Active allocs         |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| GPU reserved segments |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Non-releasable allocs |       0    |       0    |       0    |       0    |
+|       from large pool |       0    |       0    |       0    |       0    |
+|       from small pool |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize allocations  |       0    |       0    |       0    |       0    |
+|---------------------------------------------------------------------------|
+| Oversize GPU segments |       0    |       0    |       0    |       0    |
+|===========================================================================|
+
+[2026-02-21 23:35:37.179] Got an OOM, unloading all loaded models.
+[2026-02-21 23:35:37.841] Prompt executed in 107.52 seconds

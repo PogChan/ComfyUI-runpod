@@ -1,0 +1,112 @@
+** ComfyUI startup time: 2026-02-19 23:43:43.798
+[2026-02-19 23:43:43.798] ** Platform: Windows
+[2026-02-19 23:43:43.799] ** Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[2026-02-19 23:43:43.799] ** Python executable: C:\Users\10760\ComfyUI_windows_portable\python_embeded\python.exe
+[2026-02-19 23:43:43.799] ** ComfyUI Path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI
+[2026-02-19 23:43:43.799] ** ComfyUI Base Folder Path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI
+[2026-02-19 23:43:43.800] ** User directory: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user
+[2026-02-19 23:43:43.800] ** ComfyUI-Manager config path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\__manager\config.ini
+[2026-02-19 23:43:43.800] ** Log path: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\comfyui.log
+[PRE] ComfyUI-Manager
+[2026-02-19 23:43:45.382] 
+Prestartup times for custom nodes:
+[2026-02-19 23:43:45.382]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+[2026-02-19 23:43:45.382] 
+[2026-02-19 23:43:48.900] Checkpoint files will always be loaded safely.
+[2026-02-19 23:43:50.885] Found comfy_kitchen backend triton: {'available': False, 'disabled': True, 'unavailable_reason': "ImportError: No module named 'triton'", 'capabilities': []}
+[2026-02-19 23:43:50.885] Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-02-19 23:43:50.885] Found comfy_kitchen backend cuda: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_nvfp4']}
+[2026-02-19 23:43:51.129] Total VRAM 6144 MB, total RAM 32717 MB
+[2026-02-19 23:43:51.129] pytorch version: 2.10.0+cu130
+[2026-02-19 23:43:51.130] Set vram state to: LOW_VRAM
+[2026-02-19 23:43:51.130] Device: cuda:0 NVIDIA GeForce GTX 1660 Ti : cudaMallocAsync
+[2026-02-19 23:43:51.149] Using async weight offloading with 2 streams
+[2026-02-19 23:43:51.154] Enabled pinned memory 14722.0
+[2026-02-19 23:43:51.159] working around nvidia conv3d memory bug.
+[2026-02-19 23:43:51.654] Using pytorch attention
+[2026-02-19 23:43:56.425] Python version: 3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]
+[2026-02-19 23:43:56.427] ComfyUI version: 0.13.0
+[2026-02-19 23:43:56.470] ComfyUI frontend version: 1.38.13
+[2026-02-19 23:43:56.472] [Prompt Server] web root: C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\comfyui_frontend_package\static
+[2026-02-19 23:43:56.473] [START] ComfyUI-Manager
+[2026-02-19 23:43:56.801] [ComfyUI-Manager] network_mode: public
+[2026-02-19 23:43:59.824] ComfyUI Audio Quality Enhancer: Successfully loaded nodes
+[2026-02-19 23:43:59.825] Available nodes: ['AudioQualityEnhancer', 'AudioQualityEffects']
+[2026-02-19 23:44:06.666] [34m[ComfyUI-Easy-Use] server: [0mv1.3.7 [92mLoaded[0m
+[2026-02-19 23:44:06.667] [34m[ComfyUI-Easy-Use] web root: [0mC:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use\web_version/v2 [92mLoaded[0m
+[2026-02-19 23:44:06.681] ComfyUI-GGUF: Allowing full torch compile
+[2026-02-19 23:44:06.700] 
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+[2026-02-19 23:44:07.547] ✅ ComfyUI-Qwen-TTS v1.0.6 loaded
+[2026-02-19 23:44:07.709] 
+     ██████╗ ██╗   ██╗ █████╗ ███╗   ██╗    ██████╗ ███╗   ██╗
+     ██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║   ██╔═══██╗████╗  ██║
+     ██████╔╝ ╚████╔╝ ███████║██╔██╗ ██║   ██║   ██║██╔██╗ ██║
+     ██╔══██╗  ╚██╔╝  ██╔══██║██║╚██╗██║   ██║   ██║██║╚██╗██║
+     ██║  ██║   ██║   ██║  ██║██║ ╚████║   ╚██████╔╝██║ ╚████║
+     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═════╝ ╚═╝  ╚═══╝
+████████╗██╗  ██╗███████╗   ██╗███╗   ██╗███████╗██╗██████╗ ███████╗
+╚══██╔══╝██║  ██║██╔════╝   ██║████╗  ██║██╔════╝██║██╔══██╗██╔════╝
+   ██║   ███████║█████╗     ██║██╔██╗ ██║███████╗██║██║  ██║█████╗  
+   ██║   ██╔══██║██╔══╝     ██║██║╚██╗██║╚════██║██║██║  ██║██╔══╝  
+   ██║   ██║  ██║███████╗   ██║██║ ╚████║███████║██║██████╔╝███████╗
+   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝╚═════╝ ╚══════╝
+
+             ⚡ R Y A N   O N   T H E   I N S I D E ⚡
+
+      
+[2026-02-19 23:44:07.713] [RyanOnTheInside] Copying extension file: widget_hotkey.js
+[2026-02-19 23:44:08.258] Checking for AdvancedLivePortrait at: None
+[2026-02-19 23:44:08.259] Checking for Advanced-ControlNet at: None
+[2026-02-19 23:44:08.261] Checking for AnimateDiff-Evolved at: None
+[2026-02-19 23:44:08.261] ComfyUI-AdvancedLivePortrait not found. FlexExpressionEditor will not be available. Install ComfyUI-AdvancedLivePortrait and restart ComfyUI.
+[2026-02-19 23:44:08.262] ComfyUI-Advanced-ControlNet not found. Advanced-ControlNet feature nodes will not be available. Install ComfyUI-Advanced-ControlNet and restart ComfyUI.
+[2026-02-19 23:44:08.262] ComfyUI-AnimateDiff-Evolved not found. AnimateDiff feature nodes will not be available. Install ComfyUI-AnimateDiff-Evolved and restart ComfyUI.
+[2026-02-19 23:44:08.274] [comfyui_ryanontheinside.acestep] [ACE-Step Patches] Patched resolve_areas_and_cond_masks_multidim for 1D latent support
+[2026-02-19 23:44:08.276] [comfyui_ryanontheinside.acestep] [ACE-Step Patches] Patched comfy.utils.reshape_mask for 1D latent support
+[2026-02-19 23:44:08.309] 
+Import times for custom nodes:
+[2026-02-19 23:44:08.310]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\websocket_image_save.py
+[2026-02-19 23:44:08.310]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-GGUF
+[2026-02-19 23:44:08.310]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\JK-AceStep-Nodes
+[2026-02-19 23:44:08.311]    0.0 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-custom-scripts
+[2026-02-19 23:44:08.311]    0.1 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\comfyui-videohelpersuite
+[2026-02-19 23:44:08.311]    0.4 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Audio_Quality_Enhancer
+[2026-02-19 23:44:08.311]    0.6 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI_RyanOnTheInside
+[2026-02-19 23:44:08.312]    0.9 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Qwen-TTS
+[2026-02-19 23:44:08.312]    6.8 seconds: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+[2026-02-19 23:44:08.312] 
+[2026-02-19 23:44:08.329] Context impl SQLiteImpl.
+[2026-02-19 23:44:08.329] Will assume non-transactional DDL.
+[2026-02-19 23:44:08.385] Assets scan(roots=['models']) completed in 0.050s (created=0, skipped_existing=26, orphans_pruned=0, total_seen=29)
+[2026-02-19 23:44:08.625] Starting server
+
+[2026-02-19 23:44:08.626] To see the GUI go to: http://127.0.0.1:8188
+[2026-02-19 23:44:10.566] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-19 23:44:10.571] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/widgetInputs.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-19 23:44:11.273] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2026-02-19 23:44:11.897] [ComfyUI-Manager] The ComfyRegistry cache update is still in progress, so an outdated cache is being used.
+[2026-02-19 23:44:11.995] FETCH DATA from: C:\Users\10760\ComfyUI_windows_portable\python_embeded\Lib\site-packages\comfyui_manager\custom-node-list.json [DONE]
+[2026-02-19 23:45:21.162] FETCH ComfyRegistry Data [DONE]
+[2026-02-19 23:45:21.408] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2026-02-19 23:45:21.475] FETCH DATA from: C:\Users\10760\ComfyUI_windows_portable\ComfyUI\user\__manager\cache\1514988643_custom-node-list.json [DONE]
+[2026-02-19 23:45:21.530] [ComfyUI-Manager] All startup tasks have been completed.
+[2026-02-19 23:56:15.592] got prompt
+[2026-02-19 23:56:15.653] Using pytorch attention in VAE
+[2026-02-19 23:56:15.657] Using pytorch attention in VAE
+[2026-02-19 23:56:16.674] VAE load device: cuda:0, offload device: cpu, dtype: torch.float32
+[2026-02-19 23:56:39.527] Requested to load ZImageTEModel_
+[2026-02-19 23:56:39.559] loaded completely;  7672.25 MB loaded, full load: True
+[2026-02-19 23:56:39.564] CLIP/text encoder model load device: cpu, offload device: cpu, current: cpu, dtype: torch.float16
+[2026-02-19 23:56:56.133] model weight dtype torch.bfloat16, manual cast: torch.float32
+[2026-02-19 23:56:56.136] model_type FLOW
+[2026-02-19 23:57:52.082] Requested to load Lumina2
+[2026-02-19 23:58:20.238] loaded partially; 3139.74 MB usable, 2595.99 MB loaded, 9143.55 MB offloaded, 543.75 MB buffer reserved, lowvram patches: 84
+[2026-02-19 23:59:46.127] 100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:25<00:00, 21.03s/it]100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [01:25<00:00, 21.34s/it]
+[2026-02-19 23:59:46.151] Requested to load AutoencodingEngine
+[2026-02-19 23:59:46.565] 0 models unloaded.
+[2026-02-19 23:59:47.923] loaded partially; 0.00 MB usable, 0.00 MB loaded, 319.75 MB offloaded, 27.01 MB buffer reserved, lowvram patches: 0
+[2026-02-19 23:59:51.541] Prompt executed in 215.93 seconds
